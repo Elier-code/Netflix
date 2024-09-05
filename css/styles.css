@@ -1,0 +1,29 @@
+body{
+    background-color: #000;
+    margin: 0;
+}
+.flexContainer{
+    display: flex;
+    /* background-color: aqua; */
+
+}
+.divLeft{
+    width:50%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+}
+.divRight{
+    display: flex;
+    width: 50%;
+    /* background-color: blanchedalmond; */
+    justify-content: end;
+    margin-right: 40px;
+    align-items: end;
+}
+nav >a, .divRight > a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
